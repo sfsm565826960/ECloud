@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "http": "cross-env NODE_ENV=production nodemon --exec \"node_modules/.bin/babel-node bin/http --preset env\"",
+    "https": "cross-env NODE_ENV=production nodemon --exec \"node_modules/.bin/babel-node bin/https --preset env\""
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.5.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-myconnection": "^1.0.4",
+    "express-mysql-session": "^2.1.0",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.9"
+  }
+}
