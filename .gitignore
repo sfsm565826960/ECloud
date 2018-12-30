@@ -1,5 +1,4 @@
 server/node_modules
-server/config.js
 server/localhost.cert
 server/localhost.key
 serverDemo/node_modules
