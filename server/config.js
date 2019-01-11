@@ -27,4 +27,10 @@ const session = {
   }
 }
 
-export { port, https, pool, session };
+const ocr = {
+  APP_ID: '',
+  API_KEY: '',
+  SECRET_KEY: ''
+}
+
+export { port, https, pool, session, ocr };

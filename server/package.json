@@ -7,6 +7,7 @@
     "https": "cross-env NODE_ENV=production nodemon --exec \"node_modules/.bin/babel-node bin/https --preset env\""
   },
   "dependencies": {
+    "baidu-aip-sdk": "^2.3.9",
     "connect-history-api-fallback": "^1.5.0",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.5",
